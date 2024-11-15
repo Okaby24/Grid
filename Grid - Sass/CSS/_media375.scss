@@ -1,0 +1,325 @@
+@media (max-width: 375px) {
+  :root {
+    font-size: 6px;
+  }
+  .navbar {
+    padding: 2.1667rem 2rem;
+    .navbar-brand {
+      max-width: 15.677rem;
+    }
+    .hidden-search {
+      display: block;
+      position: relative;
+      left: 20%;
+      font-size: 2rem;
+    }
+  }
+  .shifting {
+    background: none;
+    background-color: #f2f2f2;
+    overflow: hidden;
+    .shifting-boxed__content {
+      margin-inline-start: 4rem;
+      .shifting__header {
+        font-size: 6.3rem;
+        max-width: 32rem;
+      }
+      .shifting__paragraph {
+        font-size: 2.3rem;
+        line-height: 3.5rem;
+      }
+      .pre-and-next {
+        margin-top: 3rem;
+      }
+    }
+    .shifting__img__mobile {
+      display: block !important;
+      width: 100%;
+    }
+    .shifting__img {
+      display: block;
+      width: 100%;
+    }
+    .scroll-container {
+      right: 20%;
+    }
+  }
+  .social {
+    .social__content__p1 {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    .row {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .social__content {
+      padding: 9.6667rem 3.6667rem;
+      background-color: var(--greyBg);
+      height: 100%;
+      .social__content__h2 {
+        font-size: 4.3rem;
+      }
+      .social__content__p2 {
+        font-size: 2.3rem;
+        margin-top: 5.333rem;
+        line-height: 4.167rem;
+      }
+    }
+  }
+  .latest {
+    .latest__p {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    padding: 10rem 3.667rem 10.6667rem 3.5rem;
+    .mobile-hidden-card {
+      display: none;
+    }
+    .tablet-hidden-card {
+      display: none;
+    }
+    .latest__content {
+      display: flex;
+      flex-direction: column;
+      align-items: first baseline;
+      border: none;
+      .latest__content__h2 {
+        font-size: 4.33rem;
+        max-width: 33rem;
+      }
+    }
+    .latest__p {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+    .latest__btn {
+      padding: 2.1667rem 5.333rem 2.333rem 5.5rem;
+      font-size: 2.6667rem;
+      margin-top: 3.33rem;
+    }
+  }
+  .member {
+    background-image: url(./../Assets/Member/member__banner__320.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 10.16667rem 6.333rem 10rem 3.6667rem;
+    .member__h2 {
+      font-size: 4rem;
+      font-weight: 600;
+      max-width: 43.33rem;
+    }
+    .member__p {
+      font-size: 2.5rem;
+      line-height: 3.6667rem;
+    }
+    .member__btn {
+      padding: 2.16667rem 4.1667rem 2.333rem 4.333rem;
+      font-size: 2.6667rem;
+      background-color: #f6f6f6;
+    }
+  }
+  .events {
+    padding: 9.6667rem 3.1667rem 8.8333rem 3.6667rem;
+    .events__body {
+      p {
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+    }
+
+    .events__btn-left,
+    .events__btn-right {
+      display: none;
+      border: none;
+    }
+    .mobile-nav-btns {
+      display: block;
+      padding: 1.25rem;
+      background-color: $bgNav;
+      color: $whitecolor;
+      border: none;
+      border-radius: 0;
+      font-size: 1.25rem;
+    }
+    .events__btn-right {
+      margin-inline-start: 1.5rem;
+    }
+    .events__body {
+      & + p {
+        font-size: 2rem;
+        font-weight: 500;
+      }
+      h2 {
+        font-size: 4.333rem;
+      }
+    }
+    .events__btn-bottom {
+      padding: 2.1667rem 5.333rem 2.333rem 5.5rem;
+      font-size: 2.6667rem;
+      margin-bottom: 5.5rem;
+    }
+    .events__cards-wrapper {
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      align-items: center;
+      transform: translateX(0px);
+      .d-flex {
+        justify-content: center;
+        width: 100%;
+      }
+    }
+    .events__btn-bottom {
+      border: none;
+    }
+  }
+  .media {
+    .media__top__content__p {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    .owl-media {
+      .owl-dots .owl-dot {
+        width: 4rem;
+        height: 4rem;
+        background-color: black;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        margin: 0 0.5rem;
+        display: inline-block;
+      }
+
+      .owl-dots .owl-dot.active {
+        border-color: white;
+      }
+    }
+  }
+  .read {
+    .read-top__conten {
+      p {
+        font-size: 1.5rem;
+        font-weight: 500;
+      }
+    }
+    .read-top__btns {
+      display: none;
+    }
+    .read__bottom__btn__showen {
+      display: block;
+      padding: 1.625rem 6.25rem 1.75rem 6.25rem;
+      border: none;
+      background-color: $purpleColor;
+      color: $whitecolor;
+      border-radius: 0;
+      font-size: 2rem;
+    }
+    padding: 0;
+    .read-top {
+      padding: 0rem 5.667rem 0rem 3.667rem;
+      flex-wrap: wrap;
+      width: 100%;
+      .read-top__content {
+        display: flex;
+        flex-direction: column;
+        align-items: first baseline;
+      }
+    }
+    .read__bottom__btn__hidden {
+      display: block;
+    }
+    .read__bottom__btn {
+      display: none;
+    }
+    .d-flex {
+      justify-content: center;
+      width: 100%;
+    }
+    .owl-read {
+      .item {
+        span {
+          position: relative;
+          bottom: 14.75rem;
+          left: 3.5rem;
+        }
+        p {
+          font-size: 2.333rem;
+          bottom: 12.75rem;
+          margin-inline-start: 2.8rem;
+        }
+        h3 {
+          font-size: 3rem;
+          left: 58%;
+          bottom: 8.125rem;
+        }
+      }
+    }
+    .mobile-nav-btns {
+      display: block;
+      padding: 2.16667rem 2rem;
+      font-size: 2.667rem;
+      background-color: $bgNav;
+      color: $whitecolor;
+    }
+    .events__btn-right {
+      margin-inline-start: 1.5rem;
+    }
+  }
+  .footer {
+    .footer__logo-section{
+      span{
+        margin-inline-end: 2rem;
+      }
+    }
+    .footer__location-section {
+      .grid-links {
+        li {
+          h2 {
+            font-size: 3.5rem;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+    .footer__links-section {
+      margin-top: 6.5rem;
+
+      .useful-links {
+        margin-top: 9.333rem;
+        li {
+          h2 {
+            font-size: 3.5rem;
+            font-weight: 600;
+          }
+          font-size: 1.25rem;
+        }
+      }
+      .contact-us {
+        li {
+          h2 {
+            font-weight: 600;
+            font-size: 3.5rem;
+          }
+          font-size: 1.25rem;
+        }
+        span {
+          font-size: 3rem;
+          color: $whitecolor;
+          margin-inline-end: 1rem;
+        }
+      }
+    }
+    .credits_show {
+      margin-top: 14.5833rem;
+    }
+    .footer__p {
+      font-size: 2.5rem;
+    }
+    span {
+      font-size: 3rem;
+      
+    }
+  }
+}

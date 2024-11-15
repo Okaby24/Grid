@@ -1,0 +1,78 @@
+.media {
+  background-color: $mediaBg;
+  padding: 5.6875rem 0 8.375rem;
+  .media__top {
+    display: flex;
+    justify-content: space-between;
+    .media__top__content__p {
+      color: $pinkColor;
+      font-size: 1.2rem;
+    }
+    .media__top__content__h3 {
+      color: $whitecolor;
+      font-size: 3.75rem;
+    }
+    .media__top__btn {
+      padding: 1.375rem 5.5625rem;
+      background-color: $purpleColor;
+      color: $whitecolor;
+      align-self: flex-end;
+      height: auto;
+      border: none;
+      border-radius: 0;
+      &:hover {
+        background-color: $bgNav;
+        color: $whitecolor;
+      }
+    }
+  }
+  .owl-media {
+    margin-top: 8rem;
+    .item {
+      position: relative;
+      display: inline-block;
+      margin-right: 1.2rem;
+      span,
+      h3 {
+        position: absolute;
+
+        color: white;
+        text-align: center;
+      }
+      span {
+        font-size: 2.25rem;
+        margin-bottom: 2.5rem;
+        bottom: 15%;
+        left: 10%;
+      }
+      h3 {
+        font-size: 2rem;
+        bottom: 5%;
+        left: 10%;
+        text-align: left;
+        max-width: 31.375rem;
+      }
+    }
+    .slider-img {
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+    .owl-dots .owl-dot {
+      width: 2rem;
+      height: 2rem;
+      background-color: black;
+      border: 2px solid transparent;
+      border-radius: 50%;
+      margin: 0 .5rem;
+      display: inline-block;
+    }
+    
+    .owl-dots .owl-dot.active {
+      border-color: white;
+    }
+    
+    
+    
+  }
+}

@@ -1,0 +1,112 @@
+.read {
+  .container {
+    padding: 5.5625rem 0 9rem;
+  }
+  .read-top {
+    display: flex;
+    justify-content: space-between;
+    .read-top__content {
+      max-width: 37.5rem;
+      p {
+        color: $pinkColor;
+        font-weight: 600;
+        font-family: $fontFamily;
+      }
+      h2 {
+        color: $headers;
+        font-size: 3.75rem;
+        font-weight: 600;
+        font-family: $fontFamily;
+      }
+    }
+    .read-top__btns {
+      position: relative;
+      top: 1.5rem;
+      border: none;
+      .events__btn-left,
+      .events__btn-right {
+        margin-top: 2.5rem;
+        padding: 1.25rem;
+        background-color: $bgNav;
+        color: $whitecolor;
+        border: none;
+        border-radius: 0;
+        font-size: 1.25rem;
+      }
+    }
+  }
+  .owl-read {
+    margin-top: 5.5rem;
+    .item {
+      position: relative;
+      display: inline-block;
+      span {
+        font-size: 1.5rem;
+        margin-bottom: 2.5rem;
+        bottom: 14.5%;
+        left: 10%;
+        position: absolute;
+        transform: translateX(-50%);
+        color: white;
+        text-align: center;
+      }
+      p {
+        font-size: 1.5rem;
+        margin-bottom: 2.5rem;
+        bottom: 14%;
+        left: 21.5%;
+        position: absolute;
+        transform: translateX(-50%);
+        color: white;
+        text-align: center;
+      }
+      h3 {
+        font-size: 2rem;
+        bottom: 8%;
+        left: 39%;
+        text-align: left !important;
+        max-width: 31.375rem;
+        position: absolute;
+        transform: translateX(-50%);
+        color: white;
+        text-align: center;
+      }
+    }
+  }
+  .read__bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 5.375rem;
+    .read__bottom__btn {
+      padding: 1rem 4.25rem 1.125rem 4.25rem;
+      border: none;
+      background-color: $purpleColor;
+      color: $whitecolor;
+      border-radius: 0;
+      font-size: 1.375rem;
+      &:hover {
+        background-color: $bgNav;
+        color: $whitecolor;
+      }
+    }
+    .read__bottom__btn__hidden {
+      padding: 1rem 4.25rem 1.125rem 4.25rem;
+      border: none;
+      background-color: $purpleColor;
+      color: $whitecolor;
+      border-radius: 0;
+      font-size: 1.375rem;
+      display: none;
+      &:hover {
+        background-color: $bgNav;
+        color: $whitecolor;
+      }
+    }
+  }
+  .mobile-nav-btns{
+    display: none;
+  }
+  .read__bottom__btn__showen{
+    display: none;
+  }
+}

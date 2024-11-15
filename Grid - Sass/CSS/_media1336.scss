@@ -1,0 +1,76 @@
+@media (max-width: 1336px) {
+  :root {
+    font-size: 12px;
+  }
+  .header{
+    .icon-search{
+      font-size: 1.625rem;
+    }
+  }
+  .shifting {
+    display: flex;
+    background-color: var(--greyBg);
+    background: url(../Assets/Shifting/shifting__img__1336.png);
+    background-repeat: no-repeat;
+    background-position: 5% 0;
+    background-size: cover;
+    .shifting-boxed__content {
+      max-width: 40.333rem;
+    }
+    .scroll-container {
+      bottom: 3rem;
+      right: 2rem;
+    }
+  }
+  .media__top {
+    h3 {
+      max-width: 20.333rem;
+    }
+    .media__top__btn {
+      padding: 1.5833rem 7.41667rem 1.833rem 7.41667rem;
+      font-size: 1.8333rem;
+    }
+  }
+  .member {
+    background-image: url(./../Assets/Member/member__banner__1336.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 5.6667rem 64.333rem 8.333rem 8.16667rem;
+  }
+  .slider-img__content {
+    span {
+      font-size: 2.667rem;
+    }
+    h3 {
+      font-size: 2.33rem;
+      max-width: 5rem;
+    }
+  }
+  .read-top__content {
+    p {
+      font-size: 1.333rem;
+      font-weight: 500;
+    }
+    h2 {
+      font-size: 4.16667rem;
+      max-width: 32.0833rem;
+    }
+  }
+  .owl-read {
+    .item {
+      span {
+        font-size: 2.25rem;
+      }
+      p {
+        margin-inline-start: 1.5rem;
+        font-size: 1.5rem;
+      }
+      h3 {
+        bottom: 2.5rem;
+        font-size: 2.333rem;
+      }
+    }
+  }
+}

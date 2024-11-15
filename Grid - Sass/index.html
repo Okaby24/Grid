@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+
+  <body>
+    <!--header navigation bar-->
+    <header>
+      <nav class="navbar navbar-expand-xl">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./Assets/Grid_Logo.png" alt="" />
+          </a>
+          <span class="icon-search hidden-search"></span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="icon-search"></span>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About
+
+                  <span class="icon-Drop_down"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Fintech Egypt</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Get Involved
+
+                  <span class="icon-Drop_down"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services
+
+                  <span class="icon-Drop_down"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  More
+
+                  <span class="icon-Drop_down"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="nav-content">
+              <span class="icon-search"></span>
+
+              <div class="dropdown lang-drop">
+                <a
+                  class="nav-link"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  En <span class="icon-Drop_down"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./indexar.html">Arabic</a>
+                  </li>
+                </ul>
+              </div>
+
+              <button class="btn member-btn ms-2" type="submit">
+                Become a member
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--Shifting section-->
+    <section class="shifting">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-12 shifting__content">
+            <div class="shifting-boxed__content">
+              <h1 class="shifting__header">Shifting The Future</h1>
+
+              <p class="shifting__paragraph">
+                Whether you’re an established enterprise or a growing startup,
+                discover flexible spaces and solutions to move your business
+                forward.
+              </p>
+
+              <button class="btn shifting-btn">Discover More</button>
+
+              <div class="pre-and-next">
+                <div class="pre" id="pre">
+                  <span class="icon-left-arrow"></span>
+                  <p onclick="shiftingPreClick()">Prev</p>
+                </div>
+                <div class="next" id="next">
+                  <p onclick="shiftingNextClick()">Next</p>
+                  <span class="icon-right-arrow"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 p-0 shifting__img">
+            <div class="scroll-container">
+              <div>
+                <p class="scroll-text">Scroll Down</p>
+                <p class="scroll-text1">to discover more</p>
+              </div>
+              <a href="#social">
+                <div class="scroll-button">
+                  <div class="scroll-dot"></div></div
+              ></a>
+            </div>
+
+            <img
+              class="shifting__img__mobile"
+              src="./Assets/Shifting/shifting__img__320.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Social Section-->
+    <section class="social" id="social">
+      <div class="container-fluid">
+        <div class="row p-0">
+          <div class="col-lg-6 col-sm-12 p-0">
+            <img class="social__img" src="./Assets/Social__banner.png" alt="" />
+          </div>
+          <div class="col-lg-6 col-sm-12 p-0">
+            <div class="social__content">
+              <p class="social__content__p1">ABOUT GRID</p>
+
+              <h2 class="social__content__h2 mt-4">
+                Enhanced social distancing measures
+              </h2>
+
+              <p class="social__content__p2">
+                Whether you’re an established enterprise or a growing startup,
+                discover flexible spaces and solutions to move your business
+                forward.
+              </p>
+
+              <p class="social__content__p2">
+                FinTech has recently become a promising and emerging industry
+                across the globe that uses technology and innovation to broaden
+                the frontiers of financial activities.
+              </p>
+
+              <button class="btn social__btn">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--latest-->
+    <section class="latest">
+      <div class="container">
+        <div class="latest__content">
+          <div>
+            <p class="latest__p">SUCCESS STORIES</p>
+            <h2 class="latest__content__h2">Read up on latest Articles</h2>
+          </div>
+          <button class="btn latest__btn">View All</button>
+        </div>
+        <div class="row latest__cards">
+          <div class="col-lg-6 col-xl-4 col-md-6 all-shown-card">
+            <div class="card">
+              <img
+                src="./Assets/latest_card1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="card-body__top__content latest__desktop-card-body">
+                  <div class="line"></div>
+                  <p>
+                    Payment, Wealth management, ..<span><u>+5</u></span>
+                  </p>
+                </div>
+                <div class="card-body__top__content latest__smaller-card-body">
+                  <div class="line"></div>
+                  <p>
+                    Payment, Wealth , .. <span><u>+5</u></span>
+                  </p>
+                </div>
+                <h5 class="card-title">
+                  David Droga Still Has Faith in Online Advertising
+                </h5>
+                <div class="card-body__bottom__content">
+                  <div class="latest__name">
+                    <span class="icon-pen"></span>
+                    <p>AHMED SOLIMAN</p>
+                  </div>
+                  <div class="latest__date">
+                    <span class="icon-calendar"></span>
+                    <pre>18 - 3 - 2022</pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-xl-4 col-md-6 tablet-hidden-card">
+            <div class="card">
+              <img
+                src="./Assets/latest_card2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="card-body__top__content latest__desktop-card-body">
+                  <div class="line"></div>
+                  <p>
+                    Payment, Wealth management, ..<span><u>+5</u></span>
+                  </p>
+                </div>
+                <div class="card-body__top__content latest__smaller-card-body">
+                  <div class="line"></div>
+                  <p>
+                    Payment, Wealth , .. <span><u>+5</u></span>
+                  </p>
+                </div>
+                <h5 class="card-title">
+                  David Droga Still Has Faith in Online Advertising
+                </h5>
+                <div class="card-body__bottom__content">
+                  <div class="latest__name">
+                    <span class="icon-pen"></span>
+                    <p>AHMED SOLIMAN</p>
+                  </div>
+                  <div class="latest__date">
+                    <span class="icon-calendar"></span>
+                    <pre>18 - 3 - 2022</pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 col-xl-4 col-md-6 hidden-card mobile-hidden-card"
+          >
+            <div class="card">
+              <img
+                src="./Assets/latest_card3.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <div class="card-body__top__content latest__desktop-card-body">
+                  <div class="line"></div>
+                  <p>
+                    Payment, Wealth management, ..<span><u>+5</u></span>
+                  </p>
+                </div>
+                <div class="card-body__top__content latest__smaller-card-body">
+                  <div class="line"></div>
+                  <p>
+                    Payment, Wealth , .. <span><u>+5</u></span>
+                  </p>
+                </div>
+                <h5 class="card-title">
+                  David Droga Still Has Faith in Online Advertising
+                </h5>
+                <div class="card-body__bottom__content">
+                  <div class="latest__name">
+                    <span class="icon-pen"></span>
+                    <p>AHMED SOLIMAN</p>
+                  </div>
+                  <div class="latest__date">
+                    <span class="icon-calendar"></span>
+                    <pre>18 - 3 - 2022</pre>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--member section-->
+    <section class="member">
+      <div class="container">
+        <h2 class="member__h2">Become a member and Get our Benefits</h2>
+
+        <p class="member__p">
+          Whether you’re an established enterprise or a growing startup,
+          discover flexible spaces and solutions.
+        </p>
+
+        <button class="btn member__btn">Learn More</button>
+      </div>
+    </section>
+
+    <!--events-->
+    <section class="events" id="events">
+      <div class="container-fluid">
+        <div class="row events__content">
+          <div class="col-md-4 events__body">
+            <p>MULTIOFFICE EVENTS</p>
+            <h2>Read up on latest Events</h2>
+
+            <button class="btn events__btn-left">
+              <span class="icon-left-arrow"></span>
+            </button>
+            <button class="btn events__btn-right">
+              <span class="icon-right-arrow"></span>
+            </button>
+
+            <button class="btn btn-info events__btn-bottom">View All</button>
+          </div>
+          <div class="col-md-8 events__cards-wrapper d-flex">
+            <div class="owl-events owl-carousel owl-theme">
+              <div class="item">
+                <div class="card events-first-card">
+                  <img
+                    src="./Assets/latest_card1.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <div class="events__card-top">
+                      <span class="icon-calendar"></span>
+                      <p class="events__card-top-p">
+                        September 13,2019 - August 2,2021
+                      </p>
+                    </div>
+                    <h4>David Droga Still Has Faith in Online Advertising</h4>
+                    <p class="events__card-body__p">
+                      READ MORE <span class="icon-right-long"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card events-second-card">
+                  <img
+                    src="./Assets/latest_card1.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <div class="events__card-top">
+                      <span class="icon-calendar"></span>
+                      <p class="events__card-top-p">
+                        September 13,2019 - August 2,2021
+                      </p>
+                    </div>
+                    <h4>David Droga Still Has Faith in Online Advertising</h4>
+                    <p class="events__card-body__p">
+                      READ MORE <span class="icon-right-long"></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn events__btn-left mobile-nav-btns">
+              <span class="icon-left-arrow"></span>
+            </button>
+            <button class="btn events__btn-right mobile-nav-btns">
+              <span class="icon-right-arrow"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--media-->
+    <section class="media">
+      <div class="container">
+        <div class="media__top">
+          <div class="media__top__content">
+            <p class="media__top__content__p">MULTIOFFICE MEDIA</p>
+
+            <h3 class="media__top__content__h3">Our latest Media</h3>
+          </div>
+
+          <button class="btn btn-info media__top__btn">View All</button>
+        </div>
+      </div>
+      <div class="owl-media owl-carousel owl-theme">
+        <div class="item">
+          <img class="slider-img" src="./Assets/media__1.png" alt="" />
+          <div class="slider-img__content">
+            <span class="icon-image-gallery-solid"></span>
+            <h3>Teams or individuals , all thrive here</h3>
+          </div>
+        </div>
+        <div class="item">
+          <img class="slider-img" src="./Assets/media__2.png" alt="" />
+          <div class="slider-img__content">
+            <span class="icon-image-gallery-solid"></span>
+            <h3>Teams or individuals , all thrive here</h3>
+          </div>
+        </div>
+        <div class="item">
+          <img class="slider-img" src="./Assets/media__3.png" alt="" />
+          <div class="slider-img__content">
+            <span class="icon-image-gallery-solid"></span>
+            <h3>Teams or individuals , all thrive here</h3>
+          </div>
+        </div>
+        <div class="item">
+          <img class="slider-img" src="./Assets/media__1.png" alt="" />
+          <div class="slider-img__content">
+            <span class="icon-image-gallery-solid"></span>
+            <h3>Teams or individuals , all thrive here</h3>
+          </div>
+        </div>
+        <div class="item">
+          <img class="slider-img" src="./Assets/media__2.png" alt="" />
+          <div class="slider-img__content">
+            <span class="icon-image-gallery-solid"></span>
+            <h3>Teams or individuals , all thrive here</h3>
+          </div>
+        </div>
+        <div class="item">
+          <img class="slider-img" src="./Assets/media__3.png" alt="" />
+          <div class="slider-img__content">
+            <span class="icon-image-gallery-solid"></span>
+            <h3>Teams or individuals , all thrive here</h3>
+          </div>
+        </div>
+        <div class="item">
+          <img class="slider-img" src="./Assets/media__1.png" alt="" />
+          <div class="slider-img__content">
+            <span class="icon-image-gallery-solid"></span>
+            <h3>Teams or individuals , all thrive here</h3>
+          </div>
+        </div>
+        <div class="item">
+          <img class="slider-img" src="./Assets/media__2.png" alt="" />
+          <div class="slider-img__content">
+            <span class="icon-image-gallery-solid"></span>
+            <h3>Teams or individuals , all thrive here</h3>
+          </div>
+        </div>
+        <div class="item">
+          <img class="slider-img" src="./Assets/media__3.png" alt="" />
+          <div class="slider-img__content">
+            <span class="icon-image-gallery-solid"></span>
+            <h3>Teams or individuals , all thrive here</h3>
+          </div>
+        </div>
+        <div class="item">
+          <img class="slider-img" src="./Assets/media__1.png" alt="" />
+          <div class="slider-img__content">
+            <span class="icon-image-gallery-solid"></span>
+            <h3>Teams or individuals , all thrive here</h3>
+          </div>
+        </div>
+        <div class="item">
+          <img class="slider-img" src="./Assets/media__2.png" alt="" />
+          <div class="slider-img__content">
+            <span class="icon-image-gallery-solid"></span>
+            <h3>Teams or individuals , all thrive here</h3>
+          </div>
+        </div>
+        <div class="item">
+          <img class="slider-img" src="./Assets/media__3.png" alt="" />
+          <div class="slider-img__content">
+            <span class="icon-image-gallery-solid"></span>
+            <h3>Teams or individuals , all thrive here</h3>
+          </div>
+        </div>
+        <div class="item">
+          <img class="slider-img" src="./Assets/media__1.png" alt="" />
+          <div class="slider-img__content">
+            <span class="icon-image-gallery-solid"></span>
+            <h3>Teams or individuals , all thrive here</h3>
+          </div>
+        </div>
+        <div class="item">
+          <img class="slider-img" src="./Assets/media__2.png" alt="" />
+          <div class="slider-img__content">
+            <span class="icon-image-gallery-solid"></span>
+            <h3>Teams or individuals , all thrive here</h3>
+          </div>
+        </div>
+        <div class="item">
+          <img class="slider-img" src="./Assets/media__3.png" alt="" />
+          <div class="slider-img__content">
+            <span class="icon-image-gallery-solid"></span>
+            <h3>Teams or individuals , all thrive here</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--read-->
+    <section class="read">
+      <div class="container">
+        <div class="read-top">
+          <div class="read-top__content">
+            <p>MULTIOFFICE NEWS</p>
+            <h2>Read up on latest News</h2>
+            <div class="read__bottom">
+              <button class="btn read__bottom__btn__showen">
+                Check all News
+              </button>
+            </div>
+          </div>
+          <div class="read-top__btns">
+            <button class="btn btn-info events__btn-left">
+              <span class="icon-left-arrow"></span>
+            </button>
+            <button class="btn btn-info events__btn-right">
+              <span class="icon-right-arrow"></span>
+            </button>
+          </div>
+        </div>
+
+        <div class="read-imgs">
+          <div class="owl-read owl-carousel owl-theme">
+            <div class="item">
+              <img class="slider-img" src="./Assets/read__1.png" alt="" />
+              <span class="icon-calendar"></span>
+              <p>18 - 3 - 2022</p>
+              <h3>Teams or individuals , all thrive here</h3>
+            </div>
+            <div class="item">
+              <img class="slider-img" src="./Assets/read__2.png" alt="" />
+              <span class="icon-calendar"></span>
+              <p>18 - 3 - 2022</p>
+              <h3>Teams or individuals , all thrive here</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="read__bottom">
+          <button class="btn read__bottom__btn">Check all News</button>
+        </div>
+        <div class="d-flex">
+          <button class="btn events__btn-left mobile-nav-btns">
+            <span class="icon-left-arrow"></span>
+          </button>
+          <button class="btn events__btn-right mobile-nav-btns">
+            <span class="icon-right-arrow"></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="black-bg col-lg-5 col-md-12">
+            <div class="footer__logo-section">
+              <img class="footer__logo" src="./Assets/Grid_Logo.png" alt="" />
+
+              <p class="footer__p footer__content__p">
+                Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
+                augue.
+              </p>
+
+              <div class="social-icons">
+                <span class="icon-Facebook"></span>
+                <span class="icon-Twiiter"></span>
+                <span class="icon-linkedin"></span>
+              </div>
+
+              <div class="input-group footer__input">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Subscribe For Newsletters"
+                  aria-label="Subscribe For Newsletters"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn footer__logo-section__btn"
+                  type="button"
+                  id="button-addon2"
+                >
+                  Go >
+                </button>
+              </div>
+
+              <p class="footer__p footer__logo-section__bottom-p credits_hide">
+                © 2022 GRID . All rights reserved.
+              </p>
+            </div>
+          </div>
+          <div class="grey-bg col-lg-7 col-md-12">
+            <div class="row">
+            <div class="footer__location-section col-lg-6 col-sm-6 col-xs-12">
+              <ul class="grid-links">
+                <li><h2>GRID Links</h2></li>
+                <li><p class="footer__p">News & Highlights</p></li>
+                <li><p class="footer__p">Articles & Blogs</p></li>
+                <li><p class="footer__p">Media Library</p></li>
+                <li><p class="footer__p">Contact Us</p></li>
+                <li><p class="footer__p">Benefits</p></li>
+                <li><p class="footer__p">Faqs</p></li>
+                <li><p class="footer__p">Events</p></li>
+                <li><p class="footer__p">About Us</p></li>
+                <li><p class="footer__p">Eco-System</p></li>
+              </ul>
+            </div>
+            <div class="footer__links-section col-lg-6 col-sm-6 col-xs-12">
+              <div class="contact-us">
+                <ul class="contact-us">
+                  <li><h2>Contact Us</h2></li>
+                  <li>
+                    <span class="icon-location_on"></span>
+                    <p class="footer__p">Cairo - Downtown Street 23</p>
+                  </li>
+
+                  <li>
+                    <span class="icon-local_phone"></span>
+                    <p class="footer__p">+41 61 228 90 40</p>
+                  </li>
+
+                  <li>
+                    <span class="icon-letter"></span>
+                    <p class="footer__p">info@grid.com.eg</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="useful-links">
+                <ul class="useful-links">
+                  <li><h2>Useful Links</h2></li>
+                  <li><p class="footer__p">Terms & Conditions</p></li>
+                  <li><p class="footer__p">Privacy Policy</p></li>
+                </ul>
+              </div>
+
+              <div class="icons">
+                <span class="icon-A_plus" id="aPlus" onclick="Aplus()"></span>
+                <span class="icon-A_minus" onclick="Aminus()"></span>
+                <span class="icon-circle"></span>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <button id="backToTopBtn" onclick="scrollToTop()">
+      Back to Top <span class="icon-right-long"></span>
+    </button>
+
+    <div class="settings-container">
+      <div class="settings-button">
+        <span class="icon-settings"></span>
+        <span class="icon-close">X</span>
+      </div>
+      <div class="settings-expanded">
+        <span class="icon-A_plus" onclick="Aplus()"></span>
+        <span class="icon-A_minus" onclick="Aminus()"></span>
+        <span class="icon-circle"></span>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
